@@ -1,0 +1,16 @@
+{
+  "eslint.workingDirectories": [
+    {
+      "pattern": "./apps/api",
+    },
+    {
+      "pattern": "./apps/web",
+    },
+    {
+      "pattern": "./",
+    },
+  ],
+  "eslint.options": {
+    "overrideConfigFile": ".eslintrc.js"
+  }
+}
