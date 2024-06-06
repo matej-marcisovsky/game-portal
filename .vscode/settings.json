@@ -1,4 +1,5 @@
 {
+  "eslint.experimental.useFlatConfig": true,
   "eslint.workingDirectories": [
     {
       "pattern": "./apps/api",
@@ -11,6 +12,6 @@
     },
   ],
   "eslint.options": {
-    "overrideConfigFile": ".eslintrc.js"
-  }
+    "overrideConfigFile": "eslint.config.mjs"
+  },
 }
